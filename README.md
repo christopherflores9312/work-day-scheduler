@@ -15,7 +15,7 @@ A simple calendar app for scheduling your work day. This application allows user
 3. Click the save button next to the textarea to save the event.
 4. Events will be saved in the browser's localStorage and will persist even after the page is refreshed.
 
-
+<img src="assets/images/preview.png" width="400">
 
 ## Dependencies
 
