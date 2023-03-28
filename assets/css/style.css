@@ -1,9 +1,9 @@
-body {
+body { /* Set font family and size for entire HTML body element */
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
-textarea {
+textarea { /* Style textarea elements with transparent background, no border, and padding */
   background: transparent;
   border: none;
   resize: none;
@@ -12,40 +12,40 @@ textarea {
   padding: 10px;
 }
 
-.description {
+.description { /* Preserve white-space and wrap text as needed for elements with class "description" */
   white-space: pre-wrap;
 }
 
-.time-block {
+.time-block { /* Round corners of elements with class "time-block" */
   border-radius: 15px;
 }
 
-.row {
+.row { /* Add white border at top of elements with class "row" */
   border-top: 1px solid white;
 }
 
-.hour {
+.hour { /* Style elements with class "hour" with white background, black text, and dashed top border */
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
-.past {
+.past { /* Style elements with class "past" with gray background and white text */
   background-color: #d3d3d3;
   color: white;
 }
 
-.present {
+.present { /* Style elements with class "present" with reddish background and white text */
   background-color: #ff6961;
   color: white;
 }
 
-.future {
+.future { /* Style elements with class "future" with green background and white text */
   background-color: #77dd77;
   color: white;
 }
 
-.saveBtn {
+.saveBtn { /* Style elements with class "saveBtn" with blue background, white text, and border properties */
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -53,7 +53,7 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn i:hover { /* Increase font size and apply transition effect for "i" elements inside "saveBtn" on hover */
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
